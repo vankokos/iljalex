@@ -33,7 +33,7 @@
 }
 
 .header {
-  background-image: url(/img/b1.jpg);
+  background-image: url(../img/b1.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -111,7 +111,7 @@
 }
 
 .info {
-  background-image: url(/img/bg2.jpeg);
+  background-image: url(../img/bg2.jpeg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
