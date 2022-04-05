@@ -380,7 +380,9 @@
 }
 @media only screen and (max-width: 768px) {
     .header {
+        
         &__inner {
+            padding-top: 75px;
             &-top {
                 &-bigtext {
                     text-align: center;

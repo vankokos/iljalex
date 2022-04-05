@@ -474,6 +474,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header__inner {
+    padding-top: 75px;
+  }
   .header__inner-top-bigtext {
     text-align: center;
   }
