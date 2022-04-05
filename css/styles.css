@@ -474,9 +474,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
-    height: 94vh;
-  }
   .header__inner-top-bigtext {
     text-align: center;
   }
