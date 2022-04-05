@@ -380,9 +380,9 @@
 }
 @media only screen and (max-width: 768px) {
     .header {
-        
+        height:95vh;
         &__inner {
-            padding-top: 75px;
+            padding-top: 50px;
             &-top {
                 &-bigtext {
                     text-align: center;
@@ -401,6 +401,12 @@
     .info {
         background-image: none;
         &__inner {
+            &-blocks {
+                &-block {
+                    padding:20px;
+                    line-height:17px;
+                }
+            }
             &-benefits {
                 &-blocks {
                     flex-direction: column;

@@ -474,8 +474,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    height: 95vh;
+  }
   .header__inner {
-    padding-top: 75px;
+    padding-top: 50px;
   }
   .header__inner-top-bigtext {
     text-align: center;
@@ -488,6 +491,10 @@
   }
   .info {
     background-image: none;
+  }
+  .info__inner-blocks-block {
+    padding: 20px;
+    line-height: 17px;
   }
   .info__inner-benefits-blocks {
     -webkit-box-orient: vertical;

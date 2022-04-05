@@ -6,4 +6,16 @@ $('.info__inner-reviews-bottom-slider').slick({
     cssEase: 'linear',
     arrows: true,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          infinite: true,
+          dots: true,
+          arrows: false,
+          swipe: true,
+          fade:false,
+        }
+      }
+    ]
   });
