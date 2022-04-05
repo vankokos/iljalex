@@ -413,6 +413,24 @@
             display: none;
         }
     }
+
+    .options {
+        &__inner {
+            &-bottom {
+                &-block {
+                    padding: 0px;
+                    width:100%;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    &-btn {
+                        width:95%;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
     .footer {
         &__inner {
             &-contact {
