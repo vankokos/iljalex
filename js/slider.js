@@ -13,8 +13,8 @@ $('.info__inner-reviews-bottom-slider').slick({
           infinite: true,
           dots: true,
           arrows: false,
-          swipe: true,
-          fade:false,
+          // swipe: true,
+          fade:true,
         }
       }
     ]
