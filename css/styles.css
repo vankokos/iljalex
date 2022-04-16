@@ -45,7 +45,7 @@
 }
 
 .header {
-  background-image: url(../img/header.jpg);
+  background-image: url(../img/header.png);
   background-size: cover;
   height: 100vh;
 }
@@ -57,6 +57,7 @@
 .header__inner-top {
   font-family: "roboto";
   color: white;
+  text-align: center;
 }
 
 .header__inner-top-bigtext {
@@ -123,7 +124,6 @@
 }
 
 .info {
-  background-image: url(../img/bgtest.svg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;

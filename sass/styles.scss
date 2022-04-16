@@ -32,7 +32,7 @@
     }
 }
 .header {
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.png);
     background-size:cover;
     height:100vh;
     &__inner {
@@ -40,6 +40,7 @@
         &-top {
             font-family: "roboto";
             color:white;
+            text-align: center;
             &-bigtext {
                 font-weight:700;
                 font-size:calc(12px + 4.6vw);
@@ -91,7 +92,7 @@
 }
 
 .info {
-    background-image:url(../img/bgtest.svg);
+    // background-image:url(../img/bgtest.svg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
