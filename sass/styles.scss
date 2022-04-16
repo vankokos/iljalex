@@ -315,10 +315,12 @@
                 background:white;
                 padding-top: 60px;
                 padding-bottom: 60px;
-                padding-left: 150px;
-                padding-right: 150px;
+                padding-left: 50px;
+                padding-right: 50px;
+                width:500px;
+
                 // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+                // box-shadow: rgba(0,a 0, 0, 0.2) 0px 20px 30px;
                 border-radius:4px;
                 margin-bottom: 50px;
                 &-price {
@@ -330,6 +332,7 @@
                     font-size:calc(10px + 0.5vw);
                     font-weight:300;
                     margin-bottom: 20px;
+                    text-align: center;
                 }
                 &-btn {
                     background:#13ce66;
@@ -361,6 +364,7 @@
         padding-bottom: 50px;
         font-family: "roboto";
         color:white;
+
         &-title {
             font-size:calc(12px + 2.2vw);
             text-align:center;
@@ -373,6 +377,8 @@
             font-weight:300;
             text-align: center;
             margin-bottom: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
         }
         &-contact {
             display: flex;
@@ -446,6 +452,10 @@
                     width:100%;
                     padding-top: 50px;
                     padding-bottom: 50px;
+                    &-description {
+                        padding-left: 50px;
+                        padding-right: 50px;
+                    }
                     &-btn {
                         width:95%;
                         padding-top: 20px;
