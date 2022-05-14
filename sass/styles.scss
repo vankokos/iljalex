@@ -19,6 +19,13 @@
     }
 }   
 
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
 .top {
     background:white;
     position: fixed;
@@ -92,7 +99,7 @@
 }
 
 .info {
-    background-image:url(../img/bgtest.png);
+    background-image:url(../img/infoback.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -110,15 +117,29 @@
                 padding: 50px;
                 line-height: 30px;
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+                cursor: pointer;
+                &-click {
+                    img {
+                        height:30px;
+
+                    }
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
                 &-top {
                     padding-bottom: 30px;
-                    text-align: center;
-                    font-size:calc(10px + 1.2vw);
+                    font-size:calc(10px + 0.7vw);
                     font-weight:700;
+
                 }
                 &-bottom {
                     font-size:calc(12px + 0.4vw);
                     font-weight:300;
+                }
+                &-click {
+                    display: flex;
+                    justify-content: space-between;
                 }
             }
 
@@ -397,6 +418,18 @@
                     width:50px;
                 }
             }
+        }
+    }
+
+    &__bottom {
+        background:#20292f;
+        p {
+            color:white;
+            font-family: "roboto";
+            font-weight: 100;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
 }
