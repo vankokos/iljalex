@@ -37,10 +37,9 @@ nav .drop-down {
   overflow: hidden;
   height: 172px;
   background-color: #34495e;
-  width: 200px;
+  width: 120px;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
   -webkit-transition: height 0.3s ease;
   transition: height 0.3s ease;
   font-family: "roboto";
