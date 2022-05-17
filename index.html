@@ -14,6 +14,25 @@
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
+    <div class="curtain displayNone"></div>
+
+    <div class="optionOne displayNone">
+        <img src="img/close.png" alt="" class="close" id="closeOne">
+        <form action="">
+            <input type="text" placeholder="E-mail">
+            <input type="text" name="" id="" placeholder="Phone number">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+
+    <div class="optionTwo displayNone">
+            <img src="img/close.png" alt="" class="close" id="closeTwo">
+            <form action="">
+                <input type="text" placeholder="E-mail">
+                <input type="text" name="" id="" placeholder="Phone number">
+                <input type="submit" value="Отправить">
+            </form>
+    </div>
 
     <section class="top">
         <div class="container">
@@ -23,9 +42,9 @@
                 <nav>
                     <ul class="drop-down closed">
                       <li><a href="#" class="nav-button">Язык</a></li>
-                      <li><a href="#ua.html">Українська</a></li>
-                      <li><a href="#by.html">Беларуская</a></li>
-                      <li><a href="#index.html">Русский</a></li>
+                      <li><a href="ua.html">Українська</a></li>
+                      <li><a href="by.html">Беларуская</a></li>
+                      <li><a href="index.html">Русский</a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,8 +55,8 @@
         <div class="container">
             <div class="header__inner">
                 <div class="header__inner-top">
-                    <p class="header__inner-top-bigtext">Европейское образование у вас в кармане</p>
-                    <p class="header__inner-top-smalltext">Обучение в университетах Польши -- это обучение по европейским стандартам. Новые методики преподавания и самое современное оборудование для практических и лабораторных занятий. Польские университеты, как и все европейские это гарантия качества и больших перспектив.</p>
+                    <p class="header__inner-top-bigtext">Начните европейское образование вместе с нами</p>
+                    <p class="header__inner-top-smalltext">Образование в Польше – это престижный диплом европейского образца, востребованные современные специальности, возможность обучения не только на польском, но и на английском языках, широкая сеть студенческого обмена, но и яркая, насыщенная жизнь и многое многоe другое</p>
                 </div>
                 <div class="header__inner-bottom">
                     <button class="header__inner-bottom-btn">Начать поступление</button>
@@ -209,12 +228,12 @@
                     <div class="options__inner-bottom-block">
                         <p class="options__inner-bottom-block-price">€350</p>
                         <p class="options__inner-bottom-block-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, harum sequi? Molestias quis quia, minus ut nam est sed nisi commodi error ratione modi omnis, ipsum porro, inventore rerum corrupti?</p>
-                        <button class="options__inner-bottom-block-btn">Join now</button>
+                        <button class="options__inner-bottom-block-btn" id="optionOneBtn">Join now</button>
                     </div>
                     <div class="options__inner-bottom-block">
                         <p class="options__inner-bottom-block-price">€350</p>
                         <p class="options__inner-bottom-block-description">описание 1</p>
-                        <button class="options__inner-bottom-block-btn">Join now</button>
+                        <button class="options__inner-bottom-block-btn" id="optionTwoBtn">Join now</button>
                     </div>
                 </div>
             </div>
@@ -248,5 +267,6 @@
     <script src="js/slider.js"></script>
     <script src="js/slideout.js"></script>
     <script src="js/languages.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>
