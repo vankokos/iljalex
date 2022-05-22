@@ -20,7 +20,7 @@ optionOneBtn.addEventListener("click", ()=> {
         curtain.classList.remove("displayNone")
         curtain.classList.add("displayBlock")
 
-        body.style.overflowY = "hidden"
+        // body.style.overflowY = "hidden"
 
     } else {
         optionOne.classList.remove("displayBlock")
@@ -39,7 +39,7 @@ closeOne.addEventListener("click", ()=> {
     curtain.classList.remove("displayBlock")
     curtain.classList.add("displayNone")
 
-    body.style.overflowY = "visible"
+    // body.style.overflowY = "visible"
 })
 
 
@@ -51,7 +51,7 @@ optionTwoBtn.addEventListener("click", ()=> {
         curtain.classList.remove("displayNone")
         curtain.classList.add("displayBlock")
 
-        body.style.overflowY = "hidden"
+        // body.style.overflowY = "hidden"
 
 
     } else {
@@ -71,7 +71,7 @@ closeTwo.addEventListener("click", ()=> {
     curtain.classList.remove("displayBlock")
     curtain.classList.add("displayNone")
 
-    body.style.overflowY = "visible"
+    // body.style.overflowY = "visible"
 })
 
 optionThreeBtn.addEventListener("click", ()=> {
@@ -82,7 +82,7 @@ optionThreeBtn.addEventListener("click", ()=> {
         curtain.classList.remove("displayNone")
         curtain.classList.add("displayBlock")
 
-        body.style.overflowY = "hidden"
+        // body.style.overflowY = "hidden"
 
 
     } else {
@@ -102,7 +102,7 @@ closeThree.addEventListener("click", ()=> {
     curtain.classList.remove("displayBlock")
     curtain.classList.add("displayNone")
 
-    body.style.overflowY = "visible"
+    // body.style.overflowY = "visible"
 })
 
 
@@ -119,5 +119,5 @@ curtain.addEventListener("click", ()=> {
     curtain.classList.remove("displayBlock")
     curtain.classList.add("displayNone")
 
-    body.style.overflowY = "visible"
+    // body.style.overflowY = "visible"
 })

@@ -39,9 +39,11 @@
   left: 50%;
   top: 50%;
   margin-left: -261px;
-  margin-top: -280px;
+  margin-top: -300px;
   padding-left: 60px;
   padding-right: 40px;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 
 .optionOne img {
@@ -96,9 +98,11 @@
   left: 50%;
   top: 50%;
   margin-left: -261px;
-  margin-top: -341px;
+  margin-top: -300px;
   padding-left: 60px;
   padding-right: 40px;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 
 .optionTwo img {
@@ -153,10 +157,11 @@
   left: 50%;
   top: 50%;
   margin-left: -261px;
-  margin-top: -360px;
+  margin-top: -300px;
   padding-left: 60px;
   padding-right: 40px;
-  overflow-y: visible;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 
 .optionThree img {
