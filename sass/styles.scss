@@ -37,11 +37,11 @@
     }
     ul {
         font-family: "roboto";
-        font-weight: 100;
         list-style-type: disc;
         margin-top: 20px;
         li {
             max-width:422px;
+            margin-bottom: 10px;
         }
     }
     form {
@@ -93,12 +93,13 @@
     }
     ul {
         font-family: "roboto";
-        font-weight: 100;
+        // font-weight: 100;
         list-style-type: disc;
         margin-top: 20px;
         li {
             max-width:422px;
             // display: none;
+            margin-bottom: 10px;
         }
     }
     form {
@@ -150,12 +151,12 @@
     }
     ul {
         font-family: "roboto";
-        font-weight: 100;
         list-style-type: disc;
         margin-top: 20px;
         li {
             max-width:422px;
             // display: none;
+            margin-bottom: 10px;
         }
     }
     form {
@@ -671,6 +672,10 @@ nav .drop-down {
         margin-top: 0px;
         top:0%;
         height:100vh;
+        font-weight:100;
+        li {
+            font-weight:100;
+        }
     }
 
     .optionTwo {
@@ -680,6 +685,9 @@ nav .drop-down {
         margin-top: 0px;
         top:0%;
         height:100vh;
+        li {
+            font-weight:100;
+        }
     }
 
     .optionThree {
@@ -689,6 +697,9 @@ nav .drop-down {
         margin-top: 0px;
         top:0%;
         height:100vh;
+        li {
+            font-weight:100;
+        }
     }
     .header {
         height:95vh;

@@ -53,13 +53,13 @@
 
 .optionOne ul {
   font-family: "roboto";
-  font-weight: 100;
   list-style-type: disc;
   margin-top: 20px;
 }
 
 .optionOne ul li {
   max-width: 422px;
+  margin-bottom: 10px;
 }
 
 .optionOne form {
@@ -112,13 +112,13 @@
 
 .optionTwo ul {
   font-family: "roboto";
-  font-weight: 100;
   list-style-type: disc;
   margin-top: 20px;
 }
 
 .optionTwo ul li {
   max-width: 422px;
+  margin-bottom: 10px;
 }
 
 .optionTwo form {
@@ -171,13 +171,13 @@
 
 .optionThree ul {
   font-family: "roboto";
-  font-weight: 100;
   list-style-type: disc;
   margin-top: 20px;
 }
 
 .optionThree ul li {
   max-width: 422px;
+  margin-bottom: 10px;
 }
 
 .optionThree form {
@@ -787,6 +787,10 @@ nav .drop-down li:first-child a:after {
     margin-top: 0px;
     top: 0%;
     height: 100vh;
+    font-weight: 100;
+  }
+  .optionOne li {
+    font-weight: 100;
   }
   .optionTwo {
     width: 100%;
@@ -796,6 +800,9 @@ nav .drop-down li:first-child a:after {
     top: 0%;
     height: 100vh;
   }
+  .optionTwo li {
+    font-weight: 100;
+  }
   .optionThree {
     width: 100%;
     margin-left: 0px;
@@ -803,6 +810,9 @@ nav .drop-down li:first-child a:after {
     margin-top: 0px;
     top: 0%;
     height: 100vh;
+  }
+  .optionThree li {
+    font-weight: 100;
   }
   .header {
     height: 95vh;
