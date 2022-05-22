@@ -1,13 +1,14 @@
 $('.info__inner-reviews-bottom-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    fade: true,
-    cssEase: 'linear',
-    arrows: true,
-    autoplay: true,
-    responsive: [
-      {
+dots: true,
+infinite: true,
+speed: 300,
+fade: true,
+cssEase: 'linear',
+arrows: true,
+autoplay: true,
+adaptiveHeight: true,
+responsive: [
+  {
         breakpoint: 768,
         settings: {
           infinite: true,
@@ -15,6 +16,7 @@ $('.info__inner-reviews-bottom-slider').slick({
           arrows: false,
           // swipe: true,
           fade:true,
+          
         }
       }
     ]

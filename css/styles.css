@@ -38,12 +38,26 @@
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -173px;
-  margin-top: -233px;
+  margin-left: -261px;
+  margin-top: -280px;
+  padding-left: 60px;
+  padding-right: 40px;
 }
 
 .optionOne img {
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.optionOne ul {
+  font-family: "roboto";
+  font-weight: 100;
+  list-style-type: disc;
+  margin-top: 20px;
+}
+
+.optionOne ul li {
+  max-width: 422px;
 }
 
 .optionOne form {
@@ -55,13 +69,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "roboto";
 }
 
 .optionOne form input {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100%;
   height: 50px;
-  font-size: 24px;
+  font-size: 15px;
+  font-weight: 100;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.optionOne form input:last-child {
+  background: #36454f;
+  color: white;
+  cursor: pointer;
 }
 
 .optionTwo {
@@ -70,12 +95,26 @@
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -173px;
-  margin-top: -233px;
+  margin-left: -261px;
+  margin-top: -341px;
+  padding-left: 60px;
+  padding-right: 40px;
 }
 
 .optionTwo img {
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.optionTwo ul {
+  font-family: "roboto";
+  font-weight: 100;
+  list-style-type: disc;
+  margin-top: 20px;
+}
+
+.optionTwo ul li {
+  max-width: 422px;
 }
 
 .optionTwo form {
@@ -87,13 +126,82 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "roboto";
 }
 
 .optionTwo form input {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100%;
   height: 50px;
-  font-size: 24px;
+  font-size: 15px;
+  font-weight: 100;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.optionTwo form input:last-child {
+  background: #36454f;
+  color: white;
+  cursor: pointer;
+}
+
+.optionThree {
+  z-index: 2000000;
+  background: #f5f5f5;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -261px;
+  margin-top: -360px;
+  padding-left: 60px;
+  padding-right: 40px;
+  overflow-y: visible;
+}
+
+.optionThree img {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.optionThree ul {
+  font-family: "roboto";
+  font-weight: 100;
+  list-style-type: disc;
+  margin-top: 20px;
+}
+
+.optionThree ul li {
+  max-width: 422px;
+}
+
+.optionThree form {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "roboto";
+}
+
+.optionThree form input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 100;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.optionThree form input:last-child {
+  background: #36454f;
+  color: white;
+  cursor: pointer;
 }
 
 .curtain {
@@ -108,13 +216,10 @@
 nav .drop-down {
   list-style: none;
   overflow: hidden;
-  height: 172px;
   background-color: #34495e;
   width: 120px;
   margin: 0 auto;
   padding: 0;
-  -webkit-transition: height 0.3s ease;
-  transition: height 0.3s ease;
   font-family: "roboto";
   position: absolute;
   right: 0;
@@ -563,6 +668,13 @@ nav .drop-down li:first-child a:after {
   width: 500px;
   border-radius: 4px;
   margin-bottom: 50px;
+}
+
+.options__inner-bottom-block ul {
+  font-size: calc(10px + 0.5vw);
+  font-weight: 300;
+  margin-bottom: 20px;
+  list-style-type: circle;
 }
 
 .options__inner-bottom-block-price {
