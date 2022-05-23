@@ -772,6 +772,7 @@ nav .drop-down li:first-child a:after {
 .footer__inner-phone {
   text-align: center;
   font-family: "roboto";
+  font-size: calc(10px + 0.7vw);
   margin-bottom: 20px;
 }
 
