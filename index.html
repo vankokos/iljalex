@@ -57,6 +57,7 @@
                 <li>Инструкция по изготовлению Profil Zaufany</li>
                 <li>Консультация и инструкция о получении государственной страховки в Польше</li>
                 <li>Помощь в выборе подходящих условий для жизни. Выбор оптимальных вариантов с их полным описанием (комнаты в общежитии или квартиры в том городе, где находится ВУЗ). Резервация выбранного жилья. </li>
+                <li>Информация о получении ВНЖ/ПМЖ</li>
             </ul>
             <form action="https://formsubmit.co/Euroedu.company@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="2 option">
@@ -121,8 +122,8 @@
                     <p class="header__inner-top-smalltext">Образование в Польше – это престижный диплом европейского образца, востребованные современные специальности, возможность обучения не только на польском, но и на английском языках, широкая сеть студенческого обмена, но и яркая, насыщенная жизнь и многое многоe другое</p>
                 </div>
                 <div class="header__inner-bottom">
-                    <button class="header__inner-bottom-btn">Начать поступление</button>
-                    <div class="header__inner-bottom-arrow"><img src="img/arrow.png" alt=""></div>
+                    <button class="header__inner-bottom-btn" id="scrollToOptions">Начать поступление</button>
+                    <div class="header__inner-bottom-arrow"><img src="img/arrow.png" alt="" id="arrowScrollDown"></div>
                 </div>
             </div>
         </div>
@@ -250,7 +251,7 @@
                             </div>
                             <div class="info__inner-reviews-bottom-slider-block">
                                 <div class="info__inner-reviews-bottom-slider-block-package">
-                                    <img src="img/face2.png" alt="">
+                                    <img src="img/face1.png" alt="">
                                     <div class="info__inner-reviews-bottom-slider-block-package-review">
                                         <p>Покупал у них пакет за 350 евро. Все сделали как и обещали. Поступил в Политех</p>
                                     </div>
@@ -262,7 +263,7 @@
                             </div>
                             <div class="info__inner-reviews-bottom-slider-block">
                                 <div class="info__inner-reviews-bottom-slider-block-package">
-                                    <img src="img/face3.png" alt="">
+                                    <img src="img/face1.png" alt="">
                                     <div class="info__inner-reviews-bottom-slider-block-package-review">
                                         <p>Я бы хотел поблагодарить за качественную работу компанию «euroedu». Помощь с поступлением была на высшем уровне, постоянная связь и поддержка по вопросам легализации. Одним словом, очень благодарен Вам за работу!</p>
                                     </div>
@@ -289,17 +290,17 @@
                 <div class="options__inner-bottom">
                     <div class="options__inner-bottom-block">
                         <p class="options__inner-bottom-block-price">€350</p>
-                        <p class="options__inner-bottom-block-description">Пакет 1</p>
+                        <p class="options__inner-bottom-block-description">Comfort</p>
                         <button class="options__inner-bottom-block-btn" id="optionOneBtn">Join now</button>
                     </div>
                     <div class="options__inner-bottom-block">
-                        <p class="options__inner-bottom-block-price">€350</p>
-                        <p class="options__inner-bottom-block-description">Пакет 2</p>
+                        <p class="options__inner-bottom-block-price">€700</p>
+                        <p class="options__inner-bottom-block-description">Premium</p>
                         <button class="options__inner-bottom-block-btn" id="optionTwoBtn">Join now</button>
                     </div>
                     <div class="options__inner-bottom-block">
-                        <p class="options__inner-bottom-block-price">€350</p>
-                        <p class="options__inner-bottom-block-description">Пакет 3</p>
+                        <p class="options__inner-bottom-block-price">€1000</p>
+                        <p class="options__inner-bottom-block-description">Deluxe</p>
                         <button class="options__inner-bottom-block-btn" id="optionThreeBtn">Join now</button>
                     </div>
                 </div>
@@ -335,5 +336,6 @@
     <script src="js/slideout.js"></script>
     <script src="js/languages.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/arrowScrollDown.js"></script>
 </body>
 </html>

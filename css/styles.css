@@ -224,7 +224,7 @@
 nav .drop-down {
   list-style: none;
   overflow: hidden;
-  background-color: #34495e;
+  background-color: #36454f;
   width: 120px;
   margin: 0 auto;
   padding: 0;
@@ -239,7 +239,7 @@ nav .drop-down.closed {
 }
 
 nav .drop-down li {
-  border-bottom: 5px solid #2c3e50;
+  border-bottom: 6px solid #20292f;
 }
 
 nav .drop-down li a {
@@ -347,6 +347,12 @@ nav .drop-down li:first-child a:after {
   cursor: pointer;
   border: 2px solid white;
   outline: none;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.header__inner-bottom-btn:hover {
+  background: #36454f;
 }
 
 .header__inner-bottom-arrow {
@@ -764,6 +770,13 @@ nav .drop-down li:first-child a:after {
 .footer__inner-contact-link img {
   height: 50px;
   width: 50px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.footer__inner-contact-link img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer__bottom {

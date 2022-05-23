@@ -5,7 +5,6 @@ speed: 300,
 fade: true,
 cssEase: 'linear',
 arrows: true,
-autoplay: true,
 adaptiveHeight: true,
 responsive: [
   {
